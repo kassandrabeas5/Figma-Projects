@@ -24,3 +24,10 @@
     gap: 1rem;
     font-size: 1.5rem;
 }
+
+.redlobster {
+   position: absolute;
+    left: 1rem;
+    width: 200px;
+    height: auto;
+}

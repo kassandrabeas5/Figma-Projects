@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -12,6 +13,14 @@ const page = () => {
           <li>Order Now</li>
         </ul>
       </div>
+
+      <Image
+        className={styles.redlobster}
+        src="/red-lobster.png"
+        alt="Red Lobster Logo"
+        width={150}
+        height={50}
+      />
       
     </div>
   )
