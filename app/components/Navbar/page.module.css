@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #002A40;
+    display: flex;
+    width : 100vw;
+    height : 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.navlist {
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navlist ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.navlist ul li {
+    gap: 1rem;
+    font-size: 1.5rem;
+}
