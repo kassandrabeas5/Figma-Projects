@@ -31,3 +31,9 @@
     width: 200px;
     height: auto;
 }
+
+.navlist ul li:hover{
+    color: #41ff9a;
+    cursor: pointer;
+    transition: 0.3s;
+}

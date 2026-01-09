@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
+import HeroButton from '../HeroButton/page'
 
 const page = () => {
   return (
@@ -7,6 +8,7 @@ const page = () => {
         <div className={styles.content}>
         <h1>Red Lobster</h1>
         <h2>Experience ocean-fresh seafood in an elegant waterfront setting</h2>
+        <HeroButton />
       </div>
     </div>
   )
