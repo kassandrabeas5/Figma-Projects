@@ -1,0 +1,21 @@
+.promo{
+    background-color: #669BBC;
+    height: 7vh;
+    width: 100vw;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.promo span{
+    margin-right: 3rem;
+}
+
+.promo span:hover{
+    color: #60ff6a;
+    cursor: pointer;
+    transition: 0.3s;
+}
